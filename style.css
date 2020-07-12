@@ -1,0 +1,15 @@
+#top-div {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+#profile-picture {
+  width: 20%;
+  float: left;
+}
+
+#intro {
+  width: 60%;
+  float: right;
+}

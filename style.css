@@ -1,0 +1,12 @@
+#heading {
+  display: flex;
+}
+
+#intro {
+  margin: 20px;
+}
+
+.icon-link {
+  color: lightblue;
+  text-decoration: none; /* no underline */
+}

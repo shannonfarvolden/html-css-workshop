@@ -1,9 +1,25 @@
 body {
   background-color: lightblue;
+  font-family: 'Indie Flower', cursive;
+  margin: 0px;
 }
 
-#content {
-  margin: 50px;
+footer {
+  background-color: #adbce6;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 65px;
+  text-align: center;
+}
+
+#card {
+  background-color: white;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 2px;
+  height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 #heading {
@@ -18,27 +34,16 @@ body {
   font-size: 25px;
   margin: 5px;
   color: #0077b5;
-  text-decoration: none; /* no underline */
-}
-footer {
-  background-color: #adbce6;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 65px;
-  text-align: center;
+  text-decoration: none;
 }
 
 #profile-picture {
   width: 250px;
   height: auto;
   align-self: center;
+  border-radius: 5px;
 }
 
-h1,
-h2,
-h3,
-p,
-li {
-  font-family: 'Indie Flower', cursive;
+h3 {
+  text-decoration: underline;
 }

@@ -6,7 +6,7 @@ To view the presentation slides:
 
 ```
 $ npm install --global spectacle-cli
-$ spectacle -s workshop.md
+$ spectacle -s slides/workshop.md
 ```
 
 For further information, please refer to the [Spectacle JS documentation][1]

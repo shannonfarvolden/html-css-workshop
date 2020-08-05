@@ -159,22 +159,22 @@ Let's create a new directory (folder) in Visual Studio Code
 
 ### Kim - Notes on structure transfer over to Slides
 
-HTML:
-Adding the boilerplate, including the footer
-Adding headings (H1) - profile page greeting
-Adding greeting paragraph (p) - bio
-Adding Containers - structuring our one pager website: Card container, Heading container, Intro container
-Adding an Image (Profile Picture)
-Adding anchor links to social media
-Unordered lists: Creating your experience section
-Unordered lists: Creating your education and projects section
+### HTML:
+- Adding the boilerplate, including the footer
+- Adding headings (H1) - profile page greeting
+- Adding greeting paragraph (p) - bio
+- Adding Containers - structuring our one pager website: Card container, Heading container, Intro container
+- Adding an Image (Profile Picture)
+- Adding anchor links to social media
+- Unordered lists: Creating your experience section
+- Unordered lists: Creating your education and projects section
 
-CSS:
-Creating your First CSS file and linking to stylesheet
-Setting a background color on the body
-Changing the colour of a heading tag
-Introduction to using CSS to target IDs - add IDs in and CSS for IDs
+### CSS:
+- Creating your First CSS file and linking to stylesheet
+- Setting a background color on the body
+- Changing the colour of a heading tag
+- Introduction to using CSS to target IDs - add IDs in and CSS for IDs
 
-Advanced:
-Using Google Fonts (optional) to change the font, include style inside <head>
-Intro to Font Awesome: applying font awesome icons onto social media links and styling with CSS
+### Advanced:
+- Using Google Fonts (optional) to change the font, include style inside <head>
+- Intro to Font Awesome: applying font awesome icons onto social media links and styling with CSS

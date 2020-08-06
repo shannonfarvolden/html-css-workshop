@@ -4,18 +4,16 @@
 
 ### By the end of the workshop you will:
 
-- Create your very own single profile page in HTML, CSS and JavaScript
+- Create your very own single profile page in HTML and CSS
 
 Here's what you'll create today!
-[IMAGE HERE]
-
-- **Deploy your single profile page to Github Pages**
+[IMAGE AND DEMO OF WHAT SINGLE PROFILE PAGE WILL LOOK LIKE]
 
 ---
 
 ### And by doing so, you will:
 
-- Understand what HTML, CSS and JavaScript means and their roles in web development
+- Understand what HTML and CSS means and their roles in web development
 - Inspect website elements using Google Chrome Developer Tools
 
 ---
@@ -28,14 +26,14 @@ Shannon Farvolden - Software Engineer @ Pace Revenue Management
 
 Assistant Instructors:  
 Katie Sanderson – Software Engineer @ Goldman Sachs  
-Larisa Aionesei – Data Engineer @ BI Professional  
+Larisa Aionesei – Data Engineer @ Avanade
 Zahra Waheed - Bioinformatician @ EMBL-EBI
 
 ---
 
 ### Setup
 
-- Code editor (Visual Studio Code)
+- Code Editor (Visual Studio Code)
 - Google Chrome browser
 
 ---
@@ -48,12 +46,17 @@ Zahra Waheed - Bioinformatician @ EMBL-EBI
 
 ---
 
-### Download sample project
+### Download sample project - Exercise
 
 Head over to https://github.com/shannonfarvolden/html-css-workshop
 
 Find the Code button and click download zip. We will be writing some code in here later!
 ![alt text](slides/images/project-download.png 'Project download')
+
+Open the folder in Visual Studio Code
+Open starter.html in Google Chrome Browser to check everything works
+
+If you did this correctly, you should be able to see: "Welcome to the workshop! You're all set up!"
 
 ---
 
@@ -66,17 +69,30 @@ Find the Code button and click download zip. We will be writing some code in her
 
 ---
 
-### HTML Boilerplate
+### Exploring the Google Chrome Developer Tools - DEMO
 
-- Basic Structure: html, head, body
 
 ---
 
-### Exercise 2
+### Exploring the Google Chrome Developer Tools - Exercise
 
 - Go to a website URL of your choice
 - Use the Google Chrome Developer Tools to inspect the HTML elements
 - Can you spot where the head and body are? You might also see a header and footer on some sites.
+
+---
+
+### HTML Boilerplate - DEMO
+
+- Basic Structure: html, head, body
+
+---
+### HTML Boilerplate - Exercise
+
+Observe the Boilerplate
+Add a `footer` opening and closing tag inside the `<body>`
+
+[IMAGE OF EXAMPLE]
 
 ---
 
@@ -92,85 +108,146 @@ This will display the largest size heading
 Paragraphs which are displayed as smaller text can be created using p tag
 `<p>My first paragraph.</p>`
 
-## Try it yourself! Open up starter.html and after line 9 add `<h1></h1>` or your tag of choice with any text in between
+---
+
+### Creating Your Profile Page Greeting - DEMO
+
+[IMAGE OF PROFILE PAGE WITH PROFILE PAGE GREETING HIGHLIGHTED]
 
 ---
 
-## HTML Lists
+### Creating Your Profile Page Greeting Heading - Exercise
 
-You can create a list using the `ul` tagname with `li` for list items
+[Exercise walkthroughs guide pdf in repo]
 
-```
-<h2> A few of my favourite things </h2>
-<ul>
-  <li>Coffee</li>
-  <li>Picnics</li>
-  <li>Coding</li>
-  <li>Girls in tech events</li>
-</ul>
-```
-
-To change your list into an ordered list update `ul` to `ol`
-
-```
-<h2> A few of my favourite things </h2>
-<ol>
-	<li>Girls in tech events</li>
-  <li>Coffee</li>
-  <li>Picnics</li>
-  <li>Coding</li>
-</ol>
-```
+#### Try it yourself! Open up starter.html and on line 10 amend the message in `<h1></h1>` to any greeting message you like.
 
 ---
 
-### Links
+### Creating Your Greeting Paragraph - DEMO
 
-Links are created using the `a` tag with the location pass in the `href` attribute (href stands for "Hypertext Reference")
+---
+### Creating Your Greeting Paragraph - Exercise
 
-Some tags, such as this tag, will allow you to pass through an attribute to specify additional information about the element.
-
-`<a href="https://www.nhm.ac.uk/">Link to natural history museum</a>`
+[Exercise walkthroughs guide pdf in repo]
 
 ---
 
-### Images
+### Adding <div> containers to structure your profile page  - DEMO
+[IMAGE OF PROFILE PAGE WITH HIGHLIGHTED BOXES AROUND THE DIV CONTAINERS]
+
+---
+### Adding <div> containers to structure your profile page - Exercise
+
+[Exercise walkthroughs guide pdf in repo]
+- Card container, Heading container, Intro container
+
+---
+
+### Adding a Profile Picture to Your Page - DEMO
 
 Images are displayed using the img tag. src is used to specify source of the image. alt is the alternative text displayed if the image is not found.
 `<img src="profile.jpg" alt="Profile picture">`
 Because the img tag contains attributes only and no content, it does not have a closing tag
 
 ---
+### Adding a Profile Picture to Your Page - Exercise
 
-### Breakout!
-
-Notes: At this point of the workshop, attendees work under instructor guidance to create their profile page in HTML/CSS/JavaScript
-
----
-
-### Let's put together your profile page
-
-### Instructor Demo
-
-Let's create a new directory (folder) in Visual Studio Code
+[Exercise walkthroughs guide pdf in repo]
 
 ---
 
+### Adding links to social media - DEMO
 
-### Kim - Notes on structure transfer over to Slides
+Links are created using the `a` tag with the location pass in the `href` attribute (href stands for "Hypertext Reference")
 
-### HTML:
-- Adding the boilerplate, including the footer
-- Adding headings (H1) - profile page greeting
-- Adding greeting paragraph (p) - bio
-- Adding Containers - structuring our one pager website: Card container, Heading container, Intro container
-- Adding an Image (Profile Picture)
-- Adding anchor links to social media
-- Unordered lists: Creating your experience section
-- Unordered lists: Creating your education and projects section
+Some tags, such as this tag, will allow you to pass through an attribute to specify additional information about the element.
+
+`<a href="">Twitter</a>`
+
+---
+
+### Adding links to social media - Exercise
+
+[Exercise walkthroughs guide pdf in repo]
+
+---
+
+### Creating Your Experience section - DEMO
+- Unordered lists
+
+You can create a list using the `ul` tagname with `li` for list items
+
+```
+
+<h3>Experience</h3>
+<ul>
+  <li>Software Engineer - Pace</li>
+  <li>Software Developer - Broadridge</li>
+  <li>Software Developer - UBC</li>
+</ul>
+
+```
+
+To change your list into an ordered list update `ul` to `ol`
+
+```
+<h3>Experience</h3>
+<ol>
+  <li>Software Engineer - Pace</li>
+  <li>Software Developer - Broadridge</li>
+  <li>Software Developer - UBC</li>
+</ol>
+```
+
+---
+
+### Creating Your Experience section - Exercise
+
+[Exercise walkthroughs guide pdf in repo]
+
+---
+
+### Creating Your Education and Projects section - DEMO
+Now that we have an Experience section, we can apply the same approach to Education and Projects
+
+---
+### Creating Your Education and Projects section - Exercise
+
+[Exercise walkthroughs guide pdf in repo]
+
+---
+### CSS: What is it and what does it do?
+
+---
+
+### Creating your First CSS file and linking to stylesheet - DEMO
+
+
+---
+### Creating your First CSS file and linking to stylesheet - Exercise
+
+[Exercise walkthroughs guide pdf in repo]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Kim - Notes on structure transfer over to Slides - TO DO
+
 
 ### CSS:
-- Creating your First CSS file and linking to stylesheet
 - Setting a background color on the body
 - Changing the colour of a heading tag
 - Introduction to using CSS to target IDs - add IDs in and CSS for IDs

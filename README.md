@@ -1,14 +1,11 @@
-## HTML CSS Workshop
+## HTML & CSS Workshop
 
-## Viewing the Slides
+Add your own code to `index.html` and `style.css`.  
+Completed code can be found in the solutions directory.
 
-To view the presentation slides:
+You will need to install
 
-```
-$ npm install --global spectacle-cli
-$ spectacle -s slides/workshop.md
-```
+- Visual Studio Code
+- Chrome
 
-For further information, please refer to the [Spectacle JS documentation][1]
-
-[1]: https://formidable.com/open-source/spectacle/docs/tutorial/
+Have fun hacking! :)
